@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Feedly Hide Icon 
+// @name         Feedly Hide Icon a
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
@@ -19,6 +19,7 @@ setInterval(function () {
         $('[aria-label="Power Search"]').hide();
         $('[aria-label="New Features"]').hide();
         $('[aria-label="Learn and Get Support"]').hide();
+        $('[title="Train Leo"]').hide();
     };
 
     hideIcon()
